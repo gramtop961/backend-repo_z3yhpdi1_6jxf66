@@ -1,11 +1,21 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [159] using StatReload
-INFO:     Started server process [161]
+INFO:     Started reloader process [248] using StatReload
+INFO:     Started server process [250]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:33492 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:33496 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33496 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33500 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33500 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33382 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:36792 - "GET /ws/demo-tenant HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:36776 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36782 - "GET /api/runs?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36776 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36782 - "GET /api/runs?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36802 - "GET /api/runs?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36796 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36796 - "GET /api/accounts?tenant_id=demo-tenant HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36802 - "GET /api/runs?tenant_id=demo-tenant HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:49342 - "GET /ws/demo-tenant HTTP/1.1" 404 Not Found
